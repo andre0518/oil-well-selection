@@ -1,6 +1,13 @@
-# Selección de región para pozos petrolíferos (OilyGiant)
+# 🛢️ Selección de Pozos Petroleros y Análisis de Rentabilidad
 
-Este proyecto forma parte del Sprint 11 del Bootcamp de Data Science de TripleTen. El objetivo es ayudar a la empresa OilyGiant a seleccionar la mejor región para perforar **200 nuevos pozos petrolíferos**, a partir de datos geológicos sintéticos de tres regiones distintas.
+---
+
+**Stack:** Python | pandas | scikit-learn | Machine Learning | Bootstrap | Análisis de riesgo
+
+---
+
+## 📌 Descripción
+Este proyecto tiene como objetivo identificar la región óptima para perforar 200 nuevos pozos petrolíferos, maximizando la rentabilidad y minimizando el riesgo de inversión mediante técnicas de machine learning y análisis estadístico.
 
 ---
 
@@ -56,6 +63,15 @@ Cada archivo contiene:
 
 ---
 
+## 🧪 Metodología
+
+- Entrenamiento de modelos de regresión lineal para predecir el volumen de reservas.
+- Selección de los 200 pozos más prometedores por región.
+- Simulación de ganancias mediante técnica de bootstrapping.
+- Evaluación de riesgo mediante intervalos de confianza.
+
+---
+
 ## 📊 Resultados
 
 Tras aplicar regresión lineal y simulaciones con bootstrapping:
@@ -68,9 +84,27 @@ Tras aplicar regresión lineal y simulaciones con bootstrapping:
 
 ---
 
-## ✅ Conclusión
+## 🧠 Habilidades demostradas
 
-> Se recomienda **perforar en la Región 0**, ya que ofrece la mayor ganancia promedio, un intervalo de confianza favorable y un riesgo nulo de pérdida.
+- Modelado predictivo (regresión)
+- Análisis de riesgo con bootstrapping
+- Evaluación de métricas de negocio
+- Interpretación de resultados para toma de decisiones
+- Análisis exploratorio de datos (EDA)
+
+---
+
+## 💼 Impacto de negocio
+
+- Permite seleccionar ubicaciones con mayor rentabilidad esperada.
+- Reduce el riesgo financiero en inversiones petroleras.
+- Apoya la toma de decisiones estratégicas basadas en datos.
+
+---
+
+## 📌 Conclusión
+
+Se recomienda perforar en la Región 0, ya que presenta la mayor ganancia promedio, un intervalo de confianza favorable y un riesgo de pérdida inferior al umbral establecido. Este análisis permite tomar decisiones de inversión basadas en datos, maximizando la rentabilidad y reduciendo la incertidumbre.
 
 ---
 
